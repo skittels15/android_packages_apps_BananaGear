@@ -43,6 +43,12 @@
             android:entryValues="@array/screen_off_animation_values"
             android:defaultValue="0" />
 
+        <com.banana.support.preferences.SecureSettingSwitchPreference
+            android:key="lockscreen_media_metadata"
+            android:title="@string/lockscreen_media_art_title"
+            android:summary="@string/lockscreen_media_art_summary"
+            android:defaultValue="false" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
