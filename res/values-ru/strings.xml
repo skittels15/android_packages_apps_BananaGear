@@ -41,10 +41,375 @@
     <string name="notification_category_title">Уведомления</string>
     <string name="other_category_title">Другое</string>
     <string name="default_string">По умолчанию</string>
+    <string name="general_ui_category_title">Настройки интерфейса</string>
+    <string name="icons_category_title">Иконки</string>
+    <string name="gestures_title">Жесты</string>
+    <string name="caution">Внимание</string>
+    <string name="enable">Включить</string>
+    <string name="disable">Отключить</string>
 
+    <!-- Units -->
+    <string name="unit_seconds">с</string>
+    <string name="unit_milliseconds">мс</string>
+    <string name="unit_pixels">dp</string>
+     
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_element">Элементы</string>
     <string name="lockscreen_battery_info_title">Информация о зарядке</string>
     <string name="lockscreen_battery_info_summary">Отображать тока, напряжения, мощности и температуры батареи на экране блокировки во время зарядки</string>
 
+    <string name="qs_footer_datausage_title">Использование трафика</string>
+    <string name="qs_footer_datausage_summary">Показывать информацию об использованном трафике</string>
+
+    <string name="dark_ui_mode_summary">Настройть темную тему</string>
+
+    <!-- Notification headers -->
+    <string name="notification_headers_title">Заголовки уведомлений</string>
+    <string name="notification_headers_summary">Показывать заголовки с типами уведомлений</string>
+
+    <!-- Statusbar tuner -->
+    <string name="statusbar_tuner_title">Иконки в статусбаре</string>
+    <string name="statusbar_tuner_title_summary">Управлять иконками статусбара</string>
+
+    <!-- Monet Engine -->
+    <string name="monet_engine_title">Движок Monet</string>
+    <string name="monet_engine_summary">Настроить Monet на свой вкус</string>
+    <string name="monet_engine_custom_color_title">Использовать свой цвет</string>
+    <string name="monet_engine_custom_color_summary"Использовать собственные цвета вместо цветов из обоев</string>
+    <string name="monet_engine_color_override_title">Свой цвет</string>
+    <string name="monet_engine_white_luminance_user_title">Белое свечение</string>
+    <string name="monet_engine_accurate_shades_title">Использовать точные оттенки</string>
+    <string name="monet_engine_chroma_factor_title">Коэффициент цветности</string>
+    <string name="monet_engine_linear_lightness_title">Использовать линейную подсветку</string>
+
+    <!-- Network Traffic -->
+    <string name="network_icons_category_title">Иконки сети</string>
+    <string name="traffic_title">Инликатор трафика</string>
+    <string name="traffic_summary">Настроить индикатор трафика</string>
+    <string name="network_traffic_autohide_threshold_title">Задержка автоматического скрытия</string>
+    <string name="network_traffic_location_title">Положение</string>
+    <string name="network_traffic_disabled">Отключн</string>
+    <string name="network_traffic_statusbar">Статусбар</string>
+    <string name="network_traffic_qs_header">Заголовок QS</string>
+    <string name="network_traffic_refresh_interval_title">Скорость обновления</string>
+    <string name="network_traffic_refresh_interval_summary">Настроить интервал обновления скорости трафика</string>
+    <string name="network_traffic_mode_title">Режим отображения</string>
+    <string name="network_traffic_dynamic">Динамический</string>
+    <string name="network_traffic_download">Загрузка</string>
+    <string name="network_traffic_upload">Выгрузка</string>
+    <string name="network_traffic_font_size">Размер шрифта в режиме одной строки</string>
+    <string name="network_traffic_autohide">Скрывать автоматически</string>
+    <string name="network_traffic_autohide_summary">Скрывать индикатор если нет активности сети</string>
+    <string name="network_traffic_autohide_kilobits">Кбит/с</string>
+    <string name="network_traffic_autohide_kilobytes">КБайт/с</string>
+    <string name="network_traffic_units_title">Настройте отображаемую скорость сети</string>
+    <string name="network_traffic_units_bits">Бит в секунду (бит/с)</string>
+    <string name="network_traffic_units_kilobits">Килобит в секунду (кбит/с)</string>
+    <string name="network_traffic_units_megabits">Мегабит в секунду (Мбит/с)</string>
+    <string name="network_traffic_units_bytes">Байт в секунду (Байт/с)</string>
+    <string name="network_traffic_units_kilobytes">Килобайт в секунду (КБайт/с)</string>
+    <string name="network_traffic_units_megabytes">Мегабайт в секунду (МБайт/с)</string>
+    <string name="network_traffic_hidearrow">Скрывать стрелки</string>
+    <string name="network_traffic_hidearrow_summary">Скрывать стрелки индикатора скорости сети</string>
+
+    <!-- Status bar - Clock -->
+    <string name="status_bar_clock_title">Время и дата</string>
+    <string name="status_bar_clock_summary">Настройки стиля времени и даты</string>
+    <string name="status_bar_clock_seconds_title">Секунды в часах</string>
+    <string name="status_bar_clock_seconds_summary">Показывать секунды на часах в статусбаре</string>
+    <string name="status_bar_clock_position_title">Положение часов</string>
+    <string name="status_bar_clock_position_right">Справа</string>
+    <string name="status_bar_clock_position_left">Слева</string>
+    <string name="status_bar_clock_position_center">По центру</string>
+    <string name="status_bar_clock_position_hidden">Срыты</string>
+    <string name="status_bar_clock_auto_hide_title">Скрывать автоматически</string>
+    <string name="status_bar_clock_auto_hide_launcher_summary">Скрывать при открытии лаунчера</string>
+    <string name="status_bar_clock_auto_hide_summary">Настроить скрыватие часов в статусбаре</string>
+    <string name="status_bar_clock_auto_hide_hdur_title">Задержка перед скрытием</string>
+    <string name="status_bar_clock_auto_hide_hdur_summary">Количество секунд до скрытия часов</string>
+    <string name="status_bar_clock_auto_hide_sdur_title">Задержка перед отображением</string>
+    <string name="status_bar_clock_auto_hide_sdur_summary">Количество секунд до отображения часов</string>
+    <string name="status_bar_am_pm_title">Стиль AM/PM</string>
+    <string name="status_bar_am_pm_info">Активен 24-часовой режим времени</string>
+    <string name="status_bar_am_pm_normal">Нормальный</string>
+    <string name="status_bar_am_pm_small">Маленький</string>
+    <string name="status_bar_am_pm_hidden">Скрытый</string>
+    <string name="status_bar_date_title">Дата</string>
+    <string name="status_bar_date_none">Скрыта</string>
+    <string name="status_bar_date_small">Маленькая</string>
+    <string name="status_bar_date_normal">Нормальная</string>
+    <string name="status_bar_date_format_title">Формат даты</string>
+    <string name="status_bar_date_style">Стиль даты</string>
+    <string name="status_bar_date_style_normal">Нормальный</string>
+    <string name="status_bar_date_style_lowercase">Нижний индекс</string>
+    <string name="status_bar_date_style_uppercase">Верхний индекс</string>
+    <string name="status_bar_date_format_custom">Пользовательский Java-формат</string>
+    <string name="status_bar_date_string_edittext_title">Должен быть в DateFormat, например MM/dd/yy</string>
+    <string name="status_bar_date_string_edittext_summary">Введите данные</string>
+    <string name="clock_date_position">Позиция даты</string>
+    <string name="clock_date_right">Справа от часов</string>
+    <string name="clock_date_left">Слева от часов</string>
+
+    <!-- Status bar - Battery -->
+    <string name="status_bar_battery_category_title">Настройки иконки батареи</string>
+    <string name="status_bar_battery_style_title">Стиль батареи</string>
+    <string name="status_bar_battery_style_icon_portrait">Вертикальный</string>
+    <string name="status_bar_battery_style_icon_rlandscape">Вертикальный (Вправо)</string>
+    <string name="status_bar_battery_style_icon_landscape">Горизонтальный (Left)</string>
+    <string name="status_bar_battery_style_icon_rlandscape_style_a">Горизонтальный R стиль A</string>
+    <string name="status_bar_battery_style_icon_landscape_style_a">Горизонтальный L стиль A</string>
+    <string name="status_bar_battery_style_icon_rlandscape_style_b">Горизонтальный R стиль B</string>
+    <string name="status_bar_battery_style_icon_landscape_style_b">Горизонтальный L стиль B</string>
+    <string name="status_bar_battery_style_icon_landscape_pill">Вертикальный Mx</string>
+    <string name="status_bar_battery_style_icon_landscape_line">Горизонтальный Lorn</string>
+    <string name="status_bar_battery_style_icon_landscape_musku">Вертикальный IOS</string>
+    <string name="status_bar_battery_style_icon_landscape_signal">Горизонтальный Airoo</string>
+    <string name="status_bar_battery_style_icon_landscape_buddy">Горизонтальная капсула</string>
+    <string name="status_bar_battery_style_circle">Круглый</string>
+    <string name="status_bar_battery_style_dotted_circle">Точечный круг</string>
+    <string name="status_bar_battery_style_filled_circle">Заполненный круг</string>
+    <string name="status_bar_battery_style_text">Текстовый</string>
+    <string name="status_bar_battery_style_hidden">Скрытый</string>
+    <string name="status_bar_battery_percent_title">Проценты заряда</string>
+    <string name="status_bar_battery_percent_hidden">Скрыты</string>
+    <string name="status_bar_battery_percent_text_inside">Внутри иконки</string>
+    <string name="status_bar_battery_percent_text_next_right">Рядом с иконкой (справа)</string>
+    <string name="status_bar_battery_percent_text_next_left">Рядом с иконкой (слева)</string>
+    <string name="status_bar_battery_text_charging_title">Проценты во время зарядки</string>
+    <string name="status_bar_battery_text_charging_summary">Всегда показывать проценты во время зарядки</string>
+
+    <!-- QS battery -->
+    <string name="qs_battery_category_title">Батарея в QS</string>
+    <string name="qs_use_status_bar_battery_style">Использовать стиль иконки в статусбаре</string>
+
+    <!-- Battery estimate -->
+    <string name="battery_estimate_title">Оценка заряда батареи</string>
+    <string name="battery_estimate_summary">Отображать оставшееся время автономной работы, если оно доступно</string>
+
+    <!-- VoLTE icon -->
+    <string name="volte_icon_title">Иконка VoLTE</string>
+    <string name="volte_icon_summary">Отображать иконку VoLTE если доступно</string>
+
+    <!-- VoWiFi icon -->
+    <string name="vowifi_icon_title">Иконка VoWiFi</string>
+    <string name="vowifi_icon_summary">Отображать иконку VoWiFi если доступно</string>
+    <string name="volte_vowifi_override_title">Переопределение VoWiFi</string>
+    <string name="volte_vowifi_override_summary">Скрывать иконку VoLTE если доступен VoWiFi</string>
+
+    <!-- Roaming indicator icon -->
+    <string name="roaming_indicator_icon_title">Индикатор роуминга</string>
+    <string name="roaming_indicator_icon_summary">Показывать иконку роуминга на индикаторе сети при активном режиме роуминга</string>
+
+    <!-- 4G icon -->
+    <string name="show_fourg_icon_title">Иконка 4G</string>
+    <string name="show_fourg_icon_summary">Показывать иконку 4G вместо LTE</string>
+
+    <!-- Data disabled indicator -->
+    <string name="data_disabled_icon_title">Индикатор отключенной передачи данных</string>
+    <string name="data_disabled_icon_summary"Показывать индикатор отключенной передачи данных если она не активна</string>
+
+    <!-- Statusbar colored icons -->
+    <string name="statusbar_colored_icons_title">Цветные иконки</string>
+    <string name="statusbar_colored_icons_summary">Использовать цветные иконки уведомлений в статусбаре</string>
+
+    <!-- Notification count -->
+    <string name="notification_icons_category_title">Иконки уведомлений</string>
+    <string name="statusbar_notif_count_title">Показывать количество уведомлений</string>
+    <string name="statusbar_notif_count_summary">Показывать количество уведомлений на иконках приложений</string>
+
+    <!-- Old mobiletype icon style -->
+    <string name="old_mobiletype_title">Старый стиль иконки сети</string>
+    <string name="old_mobiletype_summary">Объединть иконки уровня и типа сети</string>
+
+    <!-- Font style / Icon pack -->
+    <string name="theme_customization_font_title">Стиль шрифта</string>
+    <string name="theme_customization_font_summary">Выбрать стиль системного шрифта</string>
+    <string name="theme_customization_icon_pack_title">Набор иконок</string>
+    <string name="theme_customization_icon_pack_summary">Выбрать пользовательский стиль иконок</string>
+    <string name="theme_customization_icon_shape_title">Форма иконок</string>
+    <string name="theme_customization_icon_shape_summary">Выбрать форму системных иконок</string>
+    <string name="theme_customization_signal_icon_title">Стиль иконок уровня сети</string>
+    <string name="theme_customization_signal_icon_summary">Set custom signal icon style</string>
+    <string name="theme_customization_wifi_icon_title">Стиль иконки WiFi</string>
+    <string name="theme_customization_wifi_icon_summary">Выбрать стиль иконки WiFi</string>
+    <string name="theme_customization_navbar_title">Стиль панели навигации</string>
+    <string name="theme_customization_navbar_summary">Выбрать стиль панели навигации</string>
+
+    <!-- Pocket judge -->
+    <string name="pocket_judge_title">Предотвращать случайные пробуждения</string>
+    <string name="pocket_judge_summary">Проверять датчик приближения перед пробужденим экрана</string>
+
+    <!-- Heads up timeout -->
+    <string name="notification_heads_up_title">Всплывающие уведомления</string>
+    <string name="notification_heads_up_summary">Разрешить всплывающие уведомления</string>
+    <string name="notification_heads_up_timeout_title">Задержка</string>
+    <string name="notification_heads_up_timeout_summary">Время отображения всплывающих уведомлений</string>
+
+    <!-- Less boring heads up -->
+    <string name="less_boring_heads_up_title">Меньше надоедающих</string>
+    <string name="less_boring_heads_up_summary">Отображать уведомления только для будильника, звонков и сообщений</string>
+
+    <!-- Notifications while screen on -->
+    <string name="notification_sound_vib_screen_on_title">Уведомления при включенном экране</string>
+    <string name="notification_sound_vib_screen_on_summary">Воспроизводить звук и вибрацию уведомлений при включенном экране</string>
+
+    <!-- reTicker -->
+    <string name="reticker_title">reTicker</string>
+    <string name="reticker_summary">Заменить всплыващее уведомление на более тонкую и менее агрессивную версию тикера</string>
+    <string name="reticker_colored_title">Использовать фон в цвет приложения</string>
+    <string name="reticker_colored_summary">Заменить фон уведомления на основной цвет приложения</string>
+
+    <!-- Quick Settings brightness slider -->
+    <string name="qs_brightness_slider_category">Слайдер яркости</string>
+    <string name="qs_brightness_slider_title">Показывать слайдер яркости</string>
+    <string name="qs_brightness_slider_summary">Показывать слайдер яркости в панели быстрых настроек</string>
+    <string name="qs_brightness_position_bottom_title">Показывать слайдер яркости снизу</string>
+    <string name="qs_brightness_position_bottom_summary">Показывать слайдер яркости сверху</string>
+
+    <!-- Quick Settings brightness icon -->
+    <string name="brightness_icon_title">Адаптивная яркость</string>
+    <string name="brightness_icon_summary">Показывать кнопку адаптивной яркости/string>
+
+    <!-- Fingerprint Ripple Effect -->
+    <string name="enable_fingerprint_ripple_effect_title">Пульсирующий эффект</string>
+    <string name="enable_fingerprint_ripple_effect_summary"Показывать пульсирующий эффект при разблокировке отпечатком</string>
+
+    <!-- QS Transparency -->
+    <string name="qs_transparency_title">Прозрачность фона</string>
+    <string name="qs_transparency_summary">Настроить уровень прозрачности фона панели QS</string>
+
+    <!-- Doze settings -->
+    <string name="doze_display_title">Включение экрана при уведомлениях</string>
+    <string name="doze_display_summary">Настроки включения экрана при уведомлениях</string>
+    <string name="doze_additional_settings_title">Расширенные настройки</string>
+    <string name="doze_additional_settings_summary">Дополнительные настройки включения экрана при уведомлениях</string>
+    <string name="doze_sensor_title">На основе датчиков</string>
+    <string name="raise_to_wake_title">Пробуждение</string>
+    <string name="raise_to_wake_summary">Пробуждать экран вместо пульсирующих уведомлений</string>
+    <string name="tilt_title">Наклон</string>
+    <string name="tilt_summary">Показывать уведомления при наклоне устройства</string>
+    <string name="pickup_title">Поднятие</string>
+    <string name="pickup_summary">Показывать уведомления при поднятии устройства</string>
+    <string name="handwave_title">Взмах рукой</string>
+    <string name="handwave_summary">Показывать уведомления при взмахе над устройством</string>
+    <string name="pocket_title">Карман</string>
+    <string name="pocket_summary">Показывать уведомления при извлечении устройства из кармана</string>
+    <string name="doze_vibrate">Вибрировать</string>
+    <string name="doze_vibrate_summary">Длительность вибрации при показе пульсирующих уведомлений</string>
+    <string name="sensor_warning_message">Настройки, основанные на датчиках, зависят от совместимости оборудования. Включение датчиков для отображения уведомлений может увеличить расход энергии.</string>
+
+    <!-- Ambient edge lighting -->
+    <string name="pulse_ambient_light_title">Подсвечивать края экрана</string>
+    <string name="pulse_ambient_light_summary">Подсвечиваются боковые края экрана при импульсном уведомлении</string>
+    <string name="pulse_ambient_light_color_title">Цвет подсветки</string>
+    <string name="pulse_ambient_light_duration_title">Длительность подсветки</string>
+    <string name="pulse_ambient_light_duration_summary">Настроить длительность появления подсветки</string>
+    <string name="pulse_ambient_light_layout_title">Внешний вид подсветки</string>
+    <string name="pulse_ambient_light_layout_solid">Сплошная</string>
+    <string name="pulse_ambient_light_layout_faded">Затухающая</string>
+
+    <!-- Ambient Ticker -->
+    <string name="pulse_on_new_tracks_title">Музыкальное уведомление</string>
+    <string name="pulse_on_new_tracks_summary">Показывать музыкальное уведомление при переключении треков</string>
+
+    <!-- Unlimited google photos storage -->
+    <string name="use_photos_spoof_title">Unlimited Photos storage</string>
+    <string name="use_photos_spoof_summary">Spoof your device as Pixel XL for Google Photos app only to provide unlimited storage for backup</string>
+
+    <!-- Unlock FPS for specific games -->
+    <string name="use_games_spoof_title">Unlock higher FPS in games</string>
+    <string name="use_games_spoof_summary">Spoof your device as different model for specific games to unlock higher FPS</string>
+
+    <!-- Combined signal icons in status bar -->
+    <string name="combined_status_bar_signal_icons_title">Combined signal icons</string>
+    <string name="combined_status_bar_signal_icons_summary">Show single combined icon for WiFi and mobile signal</string>
+
+    <!-- Navbar Options -->
+    <string name="pixel_navbar_anim_title">Pixel animation</string>
+    <string name="pixel_navbar_anim_summary">Enable pixel style animation for 3-button navigation bar</string>
+    <string name="navigation_bar_arrow_keys_title">Arrow keys</string>
+    <string name="navigation_bar_arrow_keys_summary">Show left &amp; right arrows to control the cursor while typing</string>
+
+    <!-- QS columns/tile customizations -->
+    <string name="qs_columns_category">QS tile layout and column settings</string>
+    <string name="qs_columns_portrait_title">QS columns in portrait</string>
+    <string name="qs_columns_landscape_title">QS columns in landscape</string>
+    <string name="qs_tile_vertical_layout_title">QS vertical layout</string>
+    <string name="qs_tile_vertical_layout_summary">Enable tile vertical layout</string>
+    <string name="qs_tile_title_visibility_title">Hide titles</string>
+    <string name="qs_tile_title_visibility_summary">Enable to hide QS tile titles</string>
+
+    <!-- IME button space -->
+    <string name="navigation_bar_ime_space_title">IME button space</string>
+    <string name="navigation_bar_ime_space_summary">Show IME button space below keyboard</string>
+
+    <!-- Screen Off animation -->
+    <string name="screen_off_animation_title">Screen off animation</string>
+    <string name="screen_off_animation_default">Default</string>
+    <string name="screen_off_animation_crt">CRT</string>
+    <string name="screen_off_animation_scale">Scale</string>
+
+    <!-- UDFPS settings -->
+    <string name="udfps_settings_title">UDFPS customization</string>
+    <string name="udfps_settings_summary">Customize under-display fingerprint scanner</string>
+    <string name="udfps_icon_picker_title">UDFPS icon picker</string>
+    <string name="udfps_icon_picker_summary">Choose your favorite fingerprint icon</string>
+    <string name="udfps_recog_animation_effect_title">UDFPS animation effect</string>
+    <string name="udfps_recog_animation_effect_summary">Choose animation effect</string>
+
+    <!-- Fingerprint authentication vibration -->
+    <string name="fp_success_vibrate_title">Fingerprint authentication vibration</string>
+    <string name="fp_success_vibrate_summary">Vibrate when fingerprint authentication is successful</string>
+    <string name="fp_error_vibrate_title">Fingerprint error vibration</string>
+    <string name="fp_error_vibrate_summary">Vibrate when fingerprint authentication fails</string>
+
+    <!-- Screen off UDFPS -->
+    <string name="screen_off_udfps_title">Screen off UDFPS</string>
+    <string name="screen_off_udfps_summary">Keep UDFPS enabled when the screen is off</string>
+
+    <!-- Statusbar logo -->
+    <string name="status_bar_logo_category_title">Logo</string>
+    <string name="status_bar_logo_title">Logo</string>
+    <string name="status_bar_logo_summary">Enable to display logo in the status bar</string>
+    <string name="status_bar_logo_position_title">Position</string>
+    <string name="status_bar_logo_position_summary">Choose which side to display the logo on, left or right</string>
+    <string name="status_bar_logo_position_right">Right</string>
+    <string name="status_bar_logo_position_left">Left</string>
+    <string name="status_bar_logo_style_title">Style</string>
+    <string name="status_bar_logo_style_bananagear">Banana Gear</string>
+    <string name="status_bar_logo_style_bananadroid">BananaDroid</string>
+    <string name="status_bar_logo_style_adidas">Adidas</string>
+    <string name="status_bar_logo_style_airjordan">Air Jordan</string>
+    <string name="status_bar_logo_style_apple">Apple</string>
+    <string name="status_bar_logo_style_avengers">Avengers</string>
+    <string name="status_bar_logo_style_batman">Batman</string>
+    <string name="status_bar_logo_style_batman_tdk">Batman The Dark Knight</string>
+    <string name="status_bar_logo_style_beats">Beats</string>
+    <string name="status_bar_logo_style_biohazard">Biohazard</string>
+    <string name="status_bar_logo_style_blackberry">Blackberry</string>
+    <string name="status_bar_logo_style_cannabis">Cannabis</string>
+    <string name="status_bar_logo_style_fire">Fire</string>
+    <string name="status_bar_logo_style_nike">Nike</string>
+    <string name="status_bar_logo_style_pac_man">Pac-Man</string>
+    <string name="status_bar_logo_style_puma">Puma</string>
+    <string name="status_bar_logo_style_rog">ROG</string>
+    <string name="status_bar_logo_style_superman">Superman</string>
+    <string name="status_bar_logo_style_windows">Windows</string>
+    <string name="status_bar_logo_style_xbox">XBOX</string>
+
+    <!-- Lockscreen clock color -->
+    <string name="lockscreen_clock_color_title">Lockscreen clock color</string>
+    <string name="lockscreen_clock_color_summary">Use secondary color for lockscreen clock, if disabled will use color accent</string>
+
+    <!-- Lock screen cover art -->
+    <string name="lockscreen_media_art_title">Media cover art</string>
+    <string name="lockscreen_media_art_summary">Display media cover art when available</string>
+
+    <!-- Lockscreen album art filter -->
+    <string name="lockscreen_albumart_filter_title">Media cover art filter</string>
+    <string name="lockscreen_albumart_filter_none">None</string>
+    <string name="lockscreen_albumart_filter_grayscale">Grayscale</string>
+    <string name="lockscreen_albumart_filter_tint">Accent tinted</string>
+    <string name="lockscreen_albumart_filter_blur">Blur</string>
+    <string name="lockscreen_albumart_filter_grayblur">Grayscale and blurred</string>
 </resources>
